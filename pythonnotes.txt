@@ -1,0 +1,107 @@
+python
+
+*high level language
+*dynamic semantics
+*interpreted
+*object oriented
+
+
+Advantages
+
+-concise and expressive syntax
+-extensive standard library
+-cross platform 
+-strong community
+-versatility of various applications
+-opensource
+-ML/AI
+
+variables - stores data
+data types are string, float , Boolean
+string="hello"
+float=12
+Boolean=true/false
+
+eg:
+age=12
+age=this is the variable
+12=value store in the variable
+
+rules for variables
+
+* variable name start only with letter or underscore
+*cannot start with number
+*cannot be keyword
+*case sensitive
+*only contain alphanumeric
+
+keywords= reserved words are keywords
+eg:
+
+False      await      else       import     pass
+None       break      except     in         raise
+True       class      finally    is         return
+and        continue   for        lambda     try
+as         def        from       nonlocal   while
+assert     del        global     not        with
+async      elif       if         or         yield
+
+
+good variables name are
+
+-choose meaning name
+-maintain the length
+-use lowercase letters with words separated by underscores as necessary to improve readability
+
+f string
+
+To write the variables in sentence use "f" and variables in {}
+In Python, the f in print(f"...") signifies a formatted string literal, also known as an f-string. F-strings provide a concise and efficient way to embed expressions directly within string literals.
+Here's how f-strings are used and their benefits:
+Embedding Expressions: You can embed Python expressions, including variables, function calls, and arithmetic operations, directly within an f-string by enclosing them in curly braces {}. The f-string then evaluates these expressions at runtime and replaces them with their resulting values.
+
+
+INPUT FUNCTION
+
+input function is used to prompt the user or enter value from keyboard
+eg:
+ variables=input("")
+
+name=input("enter your name : ")
+snack=input("enter your favourite snack : ")
+print(f"Welcome {name} your favourite snack is {snack} is ready")
+ output :enter your name : Jinu
+enter your favourite snack : chips
+Welcome Jinu your favourite snack is chips is ready
+
+
+"""income=int(input("Enter your income "))
+expense=int(input("Enter your expense "))
+balance = income - expense
+print(f"your savings is {balance} ")""" is called dot string 
+if we use # this totally commanding
+ 
+
+Arithmetic operations
+*,+,-,/,//,**
+
+comparison operations
+> ,<,>=,<=,==!=
+
+Logical operators
+and , or , not
+
+python data types
+numeric- integers , complex number,Float
+dictionary(key -value)
+Boolean(true,flase)
+Set(immutables - doesn't change)
+Sequence Type(sequnce of characters) = Strings, list , Tuple
+
+how to find the type of data ?
+a="23"
+b=23
+print(type(a))
+print(type(b))
+o/p= string
+float
